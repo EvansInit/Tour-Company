@@ -1,8 +1,3 @@
-<!--created by: ritesh basnet 
-    project name: tour company
-    date created: 16/03/2019------>
-
-
 <html>
 <head>
 <title>Tour Company</title>
