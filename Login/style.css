@@ -1,0 +1,119 @@
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(loginback2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page {
+    width: 360px;
+    padding: 5rem;
+    margin: auto;
+    
+
+}
+.login-page .card-title {
+   color: #FFFFFF;
+    padding: 0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.form{
+    position: relative;
+    z-index: 6;
+    background: rgb(38, 148, 157);
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 8px 35px 35px 35px;
+    text-align: center;
+    border-radius: 1rem;
+   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 1);
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border-radius: 2rem;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: lowercase;
+    background: #f2f2f2;
+    width: 100%;
+    border-radius: 4rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    letter-spacing: .1rem;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.form .message a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

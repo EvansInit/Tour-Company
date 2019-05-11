@@ -1,0 +1,50 @@
+<!--created by: ritesh basnet 
+    project name: tour company
+    date created: 28/03/2019------>
+
+<html>
+<head>
+<title>Login and Registration Form Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="login-page">
+ <div class="form">
+     <form class="register-form">
+         <h5 class="card-title text-center">Register</h5>
+     <input type="text" placeholder="user name"/>
+     <input type="text" placeholder="password"/>
+     <input type="text" placeholder="email id"/>
+     <button>Create</button>
+       <button> <a href="../index.html" id="cancel" name="cancel" class="btn btn-secondary">Cancel</a></button>
+     <p class="message">Already Registered?  <a href="#">Click here to login</a> </p> 
+     </form>
+     
+     <form class="login-form">
+         <h5 class="card-title text-center">Sign In</h5>
+     <input type="text" placeholder="user name"/>
+     <input type="password" placeholder="password"/>     
+     <button>login</button>
+    <button> <a href="../index.html" id="cancel" name="cancel" class="btn btn-secondary">Cancel</a></button>
+
+    <p class="message">Not Registered? <a href="#">Click here</a></p>   
+     </form>
+    </div>    
+    </div>
+    
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    
+    <script>
+    $('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");    
+    });
+    
+    </script>
+    
+    
+    
+    
+</body>    
+    
+</html>
